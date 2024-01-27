@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .container{
+            display: flex;
+            /* căn giữa theo chiều ngang */
+            justify-content: space-evenly;
+            /* căn giữa theo chiều dọc */
+            align-items: center;
+            /* xuống dòng */
+            flex-wrap: wrap;
+        }
+
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: violet;
+            color: #fff;
+
+            text-align: center;
+            line-height: 100px;
+
+            /* display: flex;
+            align-items: center;
+            justify-content: center; */
+        
+        }
+
+        /* .box-1{
+            height: 100px;
+        }
+        .box-2{
+            height: 300px;
+        }
+        .box-3{
+            height: 500px;
+        }
+        .box-4{
+            height: 200px;
+        }
+        .box-5{
+            height: 400px;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box-1">box-1</div>
+        <div class="box box-2">box-2</div>
+        <div class="box box-3">box-3</div>
+        <div class="box box-4">box-4</div>
+        <div class="box box-5">box-5</div>
+    </div>
+</body>
+</html>

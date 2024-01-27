@@ -1,0 +1,139 @@
+:root{
+    --color: red;
+}
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+html{
+    font-size: 16px;;
+}
+
+h1{
+    font-size: 1rem;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    background-color: #bd2727;
+}
+
+
+.container .parent{
+    margin: auto;
+}
+
+.parent{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.child{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-para{
+    margin: auto 30px;
+}
+
+.child1{
+    background-color: violet;
+}
+
+.child2{
+    background-color: #333;
+}
+
+.child3{
+    background-color: #bd2727;
+}
+
+.child4{
+    background-color: rgb(38, 174, 198);
+}
+
+
+
+
+.header{
+    width: 100%;
+    height: 30px;
+    background-color: violet;
+    position: fixed;
+    top:30px;
+
+}
+
+
+
+
+
+
+.box{
+     width: 100px;
+    height: 100px;
+   /* color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* float: left; */
+    border: 1px solid black;
+}
+
+.box-child{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background-color: #333;
+
+
+}
+
+
+.box1 {
+    position: relative;
+    background-color: #333;
+    /* padding: 20px; */
+    /* margin: 0 auto; */
+    left: calc(50% - 30px) ;
+}
+
+.box2 {
+    background-color: orange;
+}
+
+.box3 {
+    background-color: violet;
+}
+
+.box-dif{
+    width: 100px;
+    height: 100px;
+    background-color: darkturquoise;
+    color:#fff;
+    padding: 16px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.box-header{
+    width: 500px;
+    height: 500px;
+    background-image: 
+    url(https://caodang.fpt.edu.vn/wp-content/uploads/Anh-2-26.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; 
+
+    box-sizing: border-box;
+    padding: 20px;
+    border: 30px dashed #333;
+    background-origin: content-box;
+}

@@ -1,0 +1,71 @@
+/* kế thừa */
+html,body{
+    color: red;
+}
+h1{
+    color:green;
+}
+/* toàn cục */
+*{
+    color: red;
+}
+h1{
+    color:green;
+}
+
+/* sự lặp */
+/* .box-heading .heading-title{
+    color: green;
+}
+
+.heading-title{
+    color: red;
+} */
+
+
+/* .heading-title{
+    color: green;
+}
+
+h1{
+    color: red;
+}
+
+h1#heading-id.heading-title{
+    color: #1fd263;
+}
+
+#heading-id{
+    color: blue;
+} */
+
+
+
+
+
+
+.paragraph{
+    color:aqua;
+}
+
+#heading{
+    /* màu sắc */
+    color: yellow; 
+    color: #1fd263;
+    color: rgb(100,95,90);
+    /* font chữ */
+    font-family: sans-serif;
+}
+
+.para{
+    /* kích thước */
+    font-size: 20px;
+    /* in đậm */
+    font-weight: bold;
+    /* in nghiêng */
+    font-style: italic;
+    /* căn giữa chữ */
+    text-align: center;
+    /* màu nền */
+    background-color: blueviolet;
+}

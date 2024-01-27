@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <!-- table -->
+
+    <table border>
+        <!-- tên cột -->
+        <thead>
+            <tr>
+                <th rowspan="2">Stt</th>
+                <th rowspan="2">Họ và tên </th>
+                <th colspan="3">Điểm </th>
+                <!-- <th>Văn </th>
+                <th>Anh</th> -->
+            </tr>
+            <tr>
+                <!-- <th>Stt</th>
+                <th>Họ và tên </th> -->
+                <th>Toán </th>
+                <th>Văn </th>
+                <th>Anh</th>
+            </tr>
+        </thead>
+       
+
+        <!-- nội dung của bảng -->
+        <tbody>
+
+            <!-- 
+                gộp dòng (row) : rowspan  
+                gộp cột (column) : colspan
+            -->
+
+            <!-- dòng 1 -->
+            <tr>
+                <td>1</td>
+                <td>Trần Văn A</td>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">5</td>
+            </tr>
+
+            <!-- dòng 2 -->
+            <tr>
+                <td>2</td>
+                <td>Nguyễn Thị B</td>
+                <td>3</td>
+                <td>4</td>
+                <!-- <td>5</td> -->
+            </tr>
+
+            <!-- dòng n -->
+            <tr>
+                <td>3</td>
+                <td>Nguyễn Thị B</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Nguyễn Thị B</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Nguyễn Thị B</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Nguyễn Thị B</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <!-- <td></td> -->
+                <td colspan="2">Tổng</td>
+                <td>100</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+
+</body>
+</html>

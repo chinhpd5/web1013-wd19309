@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form>
+        <!-- text -->
+        <label for="username">Họ và tên</label>
+        <input  type="text" id="username" value="chinhpd5" required> <br>
+
+        <!-- 
+            Thuộc tính
+            value: giá trị bên trong ô input,
+            placeholder: chữ mờ, gợi ý
+            lưu ý chỉ sử dụng value hoặc placeholder
+            readonly
+            disabled
+            required
+         -->
+
+        <!-- password -->
+        <label for="password">Mật khẩu</label>
+        <input type="password" id="password" > <br>
+
+        <!-- number -->
+        <label for="age">Tuổi</label>
+        <input type="number" id="age"> <br>
+
+        <!-- các type khác -->
+        <!-- color, email, date, datetime, datetime-local, range, .... -->
+
+        <!-- ridio -->
+        <label for="gerenal">Giới tính</label> <br>
+        <!-- chỉ chọn 1 trong nhóm có chung name -->
+        <input type="radio" name="general" value="men" id="men"> 
+        <label for="men">Nam</label> <br>
+
+        <input type="radio" name="general" value="women" id="women"> 
+        <label for="women">Nữ</label><br>
+
+        <input type="radio" name="general" value="other" id="other"> 
+        <label for="other">Khác</label><br>
+
+        <!-- checkbox -->
+        <label for="">Sở thích</label> <br>
+        
+        <input type="checkbox" name="hobby" id="football" checked>
+        <label for="football">Đá bóng</label> <br>
+
+        <input type="checkbox" name="hobby" id="swim">
+        <label for="swim">Bơi</label> <br>
+
+        <input type="checkbox" name="hobby" id="run" checked>
+        <label for="run">Chạy</label> <br>
+
+        <input type="checkbox" name="hobby" id="badminton">
+        <label for="badminton">Cầu lông</label> <br>
+
+
+        <!-- select -->
+        <label for="">Môn học</label>
+        <!-- multiple để lựa chọn nhiều hơn 1, 
+            Giữ phím ctrl để chọn nhiều -->
+        <select name="" id="" multiple>
+            <option value="-1">Lựa chọn</option>
+            <option value="web1013">Thiết kế trang web</option> 
+            <option value="com1071">Tin học</option>
+            <option value="web107">Thiết kế UI/UX</option>           
+        </select><br>   
+
+        <!-- textarea : thẻ nhập nội dung -->
+        <label for="">Ghi chú</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Gửi">
+        <input type="reset" value="Nhập lại">
+    </form>
+
+
+</body>
+</html>

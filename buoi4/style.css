@@ -1,0 +1,41 @@
+:root{
+    /* 
+        cách đặt tên biến
+        --tên biến : giá trị ;
+    */
+    --color-red: rgb(228, 79, 79);
+    --gren: green;
+}
+.box{
+    width: calc(50% + 10px);
+    height: 100px;
+    background-color: var(--color-red);
+    /* căn giữa chữ chiều ngang */
+    text-align: center;
+    /* căn giữa chữ chiều dọc */
+    line-height: 100px;
+    /* padding: 20px ; */
+
+    
+    /* độ rộng viền */
+    border-width: 10px;
+    /* màu viền */
+    /* kiểu viền */
+    border-style: dashed;
+    float: left;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-red);
+    /* căn giữa chữ chiều ngang */
+    text-align: center;
+    /* căn giữa chữ chiều dọc */
+    line-height: 100px;
+    padding: 10px ;
+    float: left;
+     /* border: 1px solid #333; */
+    /* margin: 20px 30px 40px;  */
+    box-sizing: border-box;
+}
