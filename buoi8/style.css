@@ -161,6 +161,21 @@
     object-fit: cover;
 }
 
+.item__img .image:hover{
+    animation: xoaytron 2s ease-in 0s 2 alternate;
+    /* animation-iteration-count: 2; */
+}
+
+@keyframes xoaytron {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.5;
+        transform: rotate(360deg) ;
+    }
+}
+
 .item__heading{
     color: #333;
     font-size: 25px;
