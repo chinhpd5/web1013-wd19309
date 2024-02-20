@@ -30,6 +30,9 @@
 .header_menu{
     height: 60px;
     background-color: #2e7803;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header_menu ul{
@@ -37,6 +40,14 @@
     justify-content: start;
     align-items: center;
     height: 100%;
+}
+.btn__search{
+    height: 30px;
+    width: 60px;
+}
+
+.search{
+    height: 30px;
 }
 
 .header_menu ul li{
